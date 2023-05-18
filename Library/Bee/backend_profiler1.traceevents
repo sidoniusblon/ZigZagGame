@@ -1,0 +1,573 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1684007103132484, "dur":663, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103133154, "dur":123, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1684007103133310, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1684007103133335, "dur":390, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1684007103133745, "dur":455, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103134200, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234260, "dur":168, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234428, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234454, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234457, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234464, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234465, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234470, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234471, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234476, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234477, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234481, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234482, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234487, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234488, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234492, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234493, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234497, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234498, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234502, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234503, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234507, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234508, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234513, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234514, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234518, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234529, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103234541, "dur":1667, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1684007103133911, "dur":329, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007103134240, "dur":2972, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007103137212, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1684007103137427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007103139206, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1684007103141190, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1684007103141314, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007103141320, "dur":4848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1684007103146190, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103146267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007103146272, "dur":2164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103148450, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103148531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007103148537, "dur":9072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103157634, "dur":789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103158426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007103158434, "dur":7649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103166097, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103166178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007103166184, "dur":7245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103173442, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103173660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007103173666, "dur":12435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103186114, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103186198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007103186204, "dur":15049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103201264, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103201344, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007103201350, "dur":4445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103205809, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103205943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007103205950, "dur":3845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103209815, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103209887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007103209894, "dur":4565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103214470, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.AdaptivePerformance.Samsung.Android.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103214525, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007103214546, "dur":8154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.AdaptivePerformance.Samsung.Android.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103222715, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103222729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007103222735, "dur":2683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103225433, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103225447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007103225453, "dur":3890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684007103229356, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684007103229369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684007103229375, "dur":1720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1684007103231106, "dur":3169, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007103134234, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007103134235, "dur":2927, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007103137170, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1684007103137171, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007103137239, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1684007103137243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007103137893, "dur":2773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1684007103140669, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1684007103140774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007103141810, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1684007103143061, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103143080, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007103143162, "dur":5059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103148234, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103148329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007103148334, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103149559, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103149636, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007103149641, "dur":9570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103159224, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103159319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007103159327, "dur":6966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103166307, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103166393, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007103166399, "dur":7219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103173634, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103173719, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007103173725, "dur":12531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103186267, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103186369, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007103186373, "dur":14619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103201003, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103201071, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007103201077, "dur":4411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103205499, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103205653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007103205661, "dur":3547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103209222, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103209316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007103209323, "dur":1188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103210523, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103210589, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007103210594, "dur":3577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103214181, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103214236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007103214241, "dur":3208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103217462, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103217562, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007103217572, "dur":5973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103223557, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103223572, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007103223578, "dur":3021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103226609, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103226618, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007103226622, "dur":2514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684007103229150, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1684007103229213, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684007103229217, "dur":1544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1684007103230774, "dur":3489, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007103134015, "dur":261, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007103134277, "dur":2934, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007103137211, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1684007103137389, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007103139287, "dur":1933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1684007103141257, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007103141351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007103141543, "dur":55625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007103197193, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007103197260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007103197266, "dur":8378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007103205658, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007103205741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007103205748, "dur":3603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007103209369, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007103209459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007103209465, "dur":4923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007103214399, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007103214412, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007103214418, "dur":7164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007103221596, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007103221610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007103221616, "dur":3045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007103224675, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007103224688, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007103224693, "dur":2442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007103227145, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007103227165, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007103227169, "dur":2651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684007103229833, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684007103229846, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684007103229850, "dur":1389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684007103231252, "dur":3007, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007103134122, "dur":194, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007103134316, "dur":2893, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007103137210, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1684007103137318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007103139634, "dur":1591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1684007103141288, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007103141369, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007103141374, "dur":81694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007103223091, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007103223103, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007103223107, "dur":2520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007103225644, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007103225660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007103225666, "dur":3746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684007103229425, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1684007103229437, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684007103229442, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1684007103230794, "dur":3469, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007103134343, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007103134343, "dur":2843, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007103137187, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1684007103137296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007103139121, "dur":1771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1684007103140924, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1684007103141018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007103141250, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1684007103142792, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103142912, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007103143064, "dur":5029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103148106, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103148194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007103148201, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103149315, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103149391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007103149397, "dur":9228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103158640, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103158733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007103158739, "dur":7180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103165930, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103166010, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007103166016, "dur":7580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103173612, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103173627, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007103173633, "dur":12502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103186148, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103186240, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007103186246, "dur":14918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103201176, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103201269, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007103201273, "dur":4518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103205803, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103205818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007103205824, "dur":3943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103209780, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103209876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007103209883, "dur":4432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103214329, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103214403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007103214411, "dur":6943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103221372, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103221459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007103221484, "dur":2893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103224389, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103224404, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007103224410, "dur":2404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103226827, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103226841, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007103226845, "dur":2375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684007103229233, "dur":4446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1684007103233682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684007103233688, "dur":546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1684007103234244, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1684007103234245, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007103134462, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007103134462, "dur":2704, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007103137170, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1684007103137281, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007103139131, "dur":2033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1684007103141200, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103141420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007103141504, "dur":6705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103148242, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103148324, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007103148331, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103149542, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103149661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007103149667, "dur":9805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103159486, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103159570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007103159576, "dur":7806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103167396, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103167465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007103167471, "dur":6174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103173658, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103173747, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007103173753, "dur":26585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103200353, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103200508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007103200514, "dur":5151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103205678, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103206051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007103206056, "dur":4587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103210652, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103210705, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007103210709, "dur":3724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103214445, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103214457, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007103214462, "dur":7026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103221502, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103221600, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007103221607, "dur":3288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103224908, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103224920, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007103224926, "dur":2867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103227812, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103227903, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007103227912, "dur":1718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684007103229643, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1684007103229656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684007103229661, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1684007103231000, "dur":3262, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007103134552, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007103134553, "dur":2612, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007103137170, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1684007103137294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007103139126, "dur":1848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1684007103141015, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1684007103141106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007103141372, "dur":1724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1684007103143128, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103143227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007103143234, "dur":5184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103148430, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103148511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007103148533, "dur":9064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103157617, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103157862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007103157870, "dur":7529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103165421, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103165585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007103165594, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103167401, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103167484, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007103167490, "dur":6167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103173671, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103173760, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007103173766, "dur":26884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103200664, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103200683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007103200689, "dur":4945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103205652, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103205772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007103205779, "dur":3786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103209578, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103209659, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007103209665, "dur":4741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103214419, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103214433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007103214440, "dur":7097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103221551, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103221639, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007103221643, "dur":3501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103225155, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103225164, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007103225168, "dur":2643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103227824, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103227984, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007103228645, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684007103229582, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1684007103229600, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684007103229605, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1684007103231171, "dur":3089, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007103134664, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007103134664, "dur":2548, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007103137213, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1684007103137456, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007103139284, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1684007103141383, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1684007103141529, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007103141534, "dur":16564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1684007103158134, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007103158450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007103158456, "dur":7611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007103166091, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007103166247, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007103166253, "dur":7382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007103173648, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007103173733, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007103173739, "dur":12512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007103186263, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007103186343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007103186349, "dur":14599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007103200961, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007103200990, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007103200996, "dur":4461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007103205470, "dur":7017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007103212489, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007103212495, "dur":1842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007103214348, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007103214365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007103214372, "dur":3469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007103217853, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007103217928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007103217934, "dur":5588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007103223532, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007103223544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007103223549, "dur":2848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007103226412, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007103226425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007103226429, "dur":2619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684007103229063, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1684007103229076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007103229134, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1684007103230442, "dur":2026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1684007103232482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684007103232488, "dur":556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1684007103233053, "dur":1213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007103134774, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007103134775, "dur":2435, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007103137211, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1684007103137490, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007103139294, "dur":2051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1684007103141441, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan.exe" }}
+,{ "pid":12345, "tid":9, "ts":1684007103141462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007103141467, "dur":11536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan.exe" }}
+,{ "pid":12345, "tid":9, "ts":1684007103153015, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007103153079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007103153084, "dur":6106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007103159203, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007103159373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007103159379, "dur":6532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007103165926, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007103166012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007103166018, "dur":7433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007103173584, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007103173736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007103173742, "dur":26620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007103200376, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007103200466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007103200474, "dur":5165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007103205653, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007103205746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007103205753, "dur":3881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007103209647, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007103209726, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007103209732, "dur":4652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007103214398, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007103214412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007103214418, "dur":3395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007103217821, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007103217932, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007103217936, "dur":6233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007103224182, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007103224195, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007103224200, "dur":2919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007103227129, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007103227138, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684007103227142, "dur":4883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684007103232035, "dur":2239, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007103134875, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007103134875, "dur":2334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007103137209, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1684007103137318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007103139122, "dur":1931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1684007103141087, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1684007103141175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007103141380, "dur":1619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1684007103143033, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103143117, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007103143167, "dur":4952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103148130, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103148210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007103148216, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103149339, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103149425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007103149431, "dur":9385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103158830, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103158914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007103158920, "dur":7616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103166547, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103166617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007103166639, "dur":6780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103173432, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103173562, "dur":37, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007103173765, "dur":26707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103200488, "dur":789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103201280, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007103201286, "dur":7522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103208826, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103209103, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007103209111, "dur":1273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103210399, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103210464, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007103210469, "dur":3900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103214384, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103214608, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007103214613, "dur":8073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103222700, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103222714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007103222720, "dur":4389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103227119, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103227127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007103227132, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684007103229122, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1684007103229153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684007103229159, "dur":4705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1684007103233874, "dur":390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007103134983, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007103134984, "dur":2203, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007103137187, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1684007103137298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007103139116, "dur":1933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1684007103141088, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1684007103141216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007103141221, "dur":1543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1684007103142810, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103142900, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007103143075, "dur":4872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103147962, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103148040, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007103148047, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103149027, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103149109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007103149115, "dur":9093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103158223, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103158307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007103158314, "dur":7520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103165849, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103165935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007103165941, "dur":7397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103173349, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103173479, "dur":110, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007103173621, "dur":12286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103185924, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103186076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007103186084, "dur":14323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103200421, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103200503, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007103200509, "dur":5146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103205668, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103205943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007103205950, "dur":4250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103210214, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103210290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007103210296, "dur":4002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103214310, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103214718, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007103214722, "dur":8560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103223295, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103223307, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007103223312, "dur":2881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103226206, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103226219, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007103226225, "dur":2449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684007103228693, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":11, "ts":1684007103228769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007103228954, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":11, "ts":1684007103229863, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1684007103229877, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684007103229882, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1684007103231260, "dur":3012, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007103135030, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007103135031, "dur":2138, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007103137170, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1684007103137285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007103139108, "dur":1641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1684007103140787, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1684007103141014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007103141272, "dur":1215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1684007103142522, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1684007103142621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007103142908, "dur":43147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1684007103186089, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007103186195, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007103186213, "dur":19306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007103205534, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007103205652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007103205661, "dur":3702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007103209375, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007103209451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007103209457, "dur":4734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007103214201, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Profiling.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007103214267, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007103214273, "dur":3054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.Profiling.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007103217340, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.AdaptivePerformance.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007103217464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007103217470, "dur":5835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/Unity.AdaptivePerformance.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007103223315, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007103223324, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007103223328, "dur":3074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007103226423, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007103226437, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007103226443, "dur":2678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684007103229134, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1684007103229183, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684007103229189, "dur":2489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sefa6/Desktop/Oyunlar/Exe/ZigZagOyunu/ZigZag_Serkan_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1684007103231691, "dur":2578, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684007103237155, "dur":1558, "ph":"X", "name": "ProfilerWriteOutput" }
+,
